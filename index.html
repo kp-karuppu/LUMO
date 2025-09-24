@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMO | Downloader</title>
+    <link rel="stylesheet" href="..\static\css\style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>LUMO</h1>
+            <p>Let <i><strong>LUMO</strong></i> Fetch Your Content.</p>
+        </div>
+
+        <div class="input-box">
+            <input type="text" id="input" placeholder="Enter or Paste Your Link here">
+            <button>
+                <span class="material-symbols-outlined icon">
+                    radar
+                </span>
+                <span class="text">
+                    Search
+                </span>
+            </button>
+        </div>
+
+        <div class="result" id="result">
+            <div class="image-box" id="image-box">
+                <img src="../wall7.jpg" class="thumbnail" id="thumbnail">
+                <div class="overlay">
+                    <span class="material-symbols-outlined">
+                        download
+                    </span>
+                    <p>Download</p>
+                </div>
+                <div class="loading-screen">
+                    <div class="spinner"></div>
+                    <span>Downloading</span>
+                </div>
+
+            </div>
+            <div class="details" id="details">
+                <h3>How to Write Perfect TITLE, DESCRIPTION, TAGS for More Views on YouTube!</h3>
+                <hr>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>Duration</strong>
+                        <p>23:45 min</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>Size</strong>
+                        <p>24 MB</p>
+                    </div>
+                    <div class="info-item resolution">
+                        <strong>Resolution</strong>
+                        <div class="selector-container" id="selector-container">
+                            <div class="select"><span id="res">360p</span>
+                                <div class="material-symbols-outlined">
+                                    keyboard_arrow_down
+                                </div>
+                            </div>
+                            <div class="options">
+                                <div class="option">360p</div>
+                                <div class="option">480p</div>
+                                <div class="option">720p</div>
+                                <div class="option">1080p</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-item download" id="download-btn">
+                        <span class="material-symbols-outlined">
+                            download
+                        </span>
+                        <button type="submit">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../static/js/script.js"></script>
+</body>
+
+</html>
